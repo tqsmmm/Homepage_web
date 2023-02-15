@@ -1,0 +1,91 @@
+[
+    {
+        "name": "YouTube",
+        "url": "https://www.youtube.com",
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBhdGggZD0iTTMxLjY3LDkuMTc5YzAsMC0wLjMxMi0yLjM1My0xLjI3MS0zLjM4OWMtMS4yMTctMS4zNTgtMi41OC0xLjM2Ni0zLjIwNS0xLjQ0M0MyMi43MTcsNCwxNi4wMDIsNCwxNi4wMDIsNCAgIGgtMC4wMTVjMCwwLTYuNzE1LDAtMTEuMTkxLDAuMzQ3QzQuMTcxLDQuNDI0LDIuODA5LDQuNDMyLDEuNTkxLDUuNzlDMC42MzMsNi44MjYsMC4zMiw5LjE3OSwwLjMyLDkuMTc5UzAsMTEuOTQsMCwxNC43MDF2Mi41ODggICBjMCwyLjc2MywwLjMyLDUuNTIzLDAuMzIsNS41MjNzMC4zMTIsMi4zNTIsMS4yNzEsMy4zODZjMS4yMTgsMS4zNTgsMi44MTUsMS4zMTcsMy41MjcsMS40NTlDNy42NzcsMjcuOTE5LDE1Ljk5NSwyOCwxNS45OTUsMjggICBzNi43MjItMC4wMTIsMTEuMTk5LTAuMzU1YzAuNjI1LTAuMDgsMS45ODgtMC4wODgsMy4yMDUtMS40NDZjMC45NTgtMS4wMzQsMS4yNzEtMy4zODYsMS4yNzEtMy4zODZzMC4zMi0yLjc2MSwwLjMyLTUuNTIzdi0yLjU4OCAgIEMzMS45OSwxMS45NCwzMS42Nyw5LjE3OSwzMS42Nyw5LjE3OXoiIGZpbGw9IiNFMDJGMkYiLz48cG9seWdvbiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjEyLDEwIDEyLDIyIDIyLDE2ICAiLz48L2c+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+",
+        "type": ""
+    },
+    {
+        "name": "在线之家",
+        "url": "https://zxzj.vip/",
+        "icon": "",
+        "type": ""
+    },
+    {
+        "name": "什么值得买",
+        "url": "https://www.smzdm.com/",
+        "icon": "",
+        "type": ""
+    },
+    {
+        "name": "淘宝",
+        "url": "https://www.taobao.com/",
+        "icon": "",
+        "type": ""
+    },
+    {
+        "name": "京东",
+        "url": "https://www.jd.com/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "哔哩哔哩",
+        "url": "https://www.bilibili.com/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "抖音",
+        "url": "https://www.douyin.com/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "Element Plus",
+        "url": "https://element-plus.gitee.io/zh-CN/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "Epic Games",
+        "url": "https://store.epicgames.com/zh-CN/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "哔嘀影视",
+        "url": "https://www.bdys01.com/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "icon": "",
+        "type": ""
+    },{
+        "name": "无名小站",
+        "url": "https://www.btnull.org/",
+        "icon": "",
+        "type": ""
+    }
+    ,{
+        "name": "JASONNAS",
+        "url": "http://jasonnas:5000/",
+        "icon": "",
+        "type": ""
+    }
+    ,{
+        "name": "iStoreOS",
+        "url": "http://istoreos/",
+        "icon": "",
+        "type": ""
+    }
+    ,{
+        "name": "iStoreOS",
+        "url": "http://istoreos/",
+        "icon": "",
+        "type": ""
+    }
+    ,{
+        "name": "iStoreOS",
+        "url": "http://istoreos/",
+        "icon": "",
+        "type": ""
+    }
+]
