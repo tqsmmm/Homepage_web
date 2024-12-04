@@ -1,38 +1,24 @@
 <template>
-    <div class="search">
-        <el-autocomplete
-            v-model="inputValue"
-            :fetch-suggestions="querySearch"
-            clearable
-            :trigger-on-focus="false"
-            @keyup="get($event)"
-            @select="handleSelect"
-            style="width: 100%"
-        >
-            <template #prepend>
-                <el-select v-model="select" style="width: 130px" size="large">
-                    <el-option
-                        v-for="item in options"
-                        :key="item.name"
-                        :label="item.name"
-                        :value="item.url"
-                    ></el-option>
-                </el-select>
-            </template>
-            <template #append>
-                <el-button :icon="Search" size="large" @click="btnSearch" />
-            </template>
-        </el-autocomplete>
-    </div>
+    <el-autocomplete v-model="inputValue" :fetch-suggestions="querySearch" clearable :trigger-on-focus="false"
+        @keyup="get($event)" @select="handleSelect" style="width: 600px">
+        <template #prepend>
+            <el-select v-model="select" style="width: 100px" size="large">
+                <el-option v-for="item in options" :key="item.name" :label="item.name" :value="item.url"></el-option>
+            </el-select>
+        </template>
+        <template #append>
+            <el-button :icon="Search" size="large" @click="btnSearch" />
+        </template>
+    </el-autocomplete>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { Search } from '@element-plus/icons-vue';
 import axios from 'axios';
-import baidu from '@/server/baiduAxios';
-import google from '@/server/googleAxios';
-import bing from '@/server/bingAxios';
+import baidu from '../server/baiduAxios';
+import google from '../server/googleAxios';
+import bing from '../server/bingAxios';
 
 const select = ref('');
 const inputValue = ref('');
@@ -210,15 +196,4 @@ const handleSelect = (e: any) => {
 };
 </script>
 
-<style scoped lang="less">
-.search {
-    width: 800px;
-    height: 40px;
-
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    margin-left: -400px;
-    margin-top: -50px;
-}
-</style>
+<style scoped lang="less"></style>

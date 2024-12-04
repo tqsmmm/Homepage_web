@@ -1,10 +1,8 @@
 <template>
-    <div class="time">
-        <div style="font-size: 64px; font-weight: 500; color: #ffffff">{{ timeNow }}</div>
-        <div style="font-size: 14px; color: #ffffff">
-            {{ dateNow }} {{ weekNow }} {{ lunarNow }}
-        </div>
-    </div>
+    <el-space direction="vertical">
+        <el-text style="font-size: 64px; font-weight: 500;">{{ timeNow }}</el-text>
+        <el-text style="font-size: 14px;">{{ dateNow }} {{ weekNow }} {{ lunarNow }}</el-text>
+    </el-space>
 </template>
 
 <script setup lang="ts">
@@ -33,24 +31,11 @@ setInterval(() => {
     ).dateStr;
 }, 1000);
 
-onMounted(() => {});
+onMounted(() => { });
 
 onUnmounted(() => {
     clearInterval(timer);
 });
 </script>
 
-<style scoped lang="less">
-.time {
-    height: 100px;
-    width: 500px;
-
-    text-align: center;
-
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    margin-left: -250px;
-    margin-top: -50px;
-}
-</style>
+<style scoped lang="less"></style>
