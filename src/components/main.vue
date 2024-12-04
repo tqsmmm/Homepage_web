@@ -1,12 +1,14 @@
 <template>
-    <el-space direction="vertical" v-for="item in list" @click="routerHandle(item.url)">
-        <el-image :src="item.icon">
-            <template #error>
-                <Picture></Picture>
-            </template>
-        </el-image>
-        <el-text size="small">{{ item.name }}</el-text>
-    </el-space>
+    <div class="item-container">
+        <el-space direction="vertical" v-for="item in list" @click="routerHandle(item.url)">
+            <el-image :src="item.icon">
+                <template #error>
+                    <Picture></Picture>
+                </template>
+            </el-image>
+            <el-text size="small">{{ item.name }}</el-text>
+        </el-space>
+    </div>
 </template>
 
 <script setup lang="ts">
@@ -56,4 +58,20 @@ const routerHandle = (url: string) => {
 };
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* 可选，设置元素在主轴（水平方向）的对齐方式，左对齐 */
+    align-items: flex-start;
+    /* 可选，设置元素在交叉轴（垂直方向）的对齐方式，顶部对齐 */
+}
+
+.el-space {
+    width: 60px;
+    /* 假设每个 item 宽度为200px，可根据实际调整 */
+    margin: 10px;
+    /* 设置每个 item 之间的间距 */
+}
+</style>
