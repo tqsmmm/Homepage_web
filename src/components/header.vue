@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onUnmounted } from 'vue';
 import { getLunar } from 'chinese-lunar-calendar';
 import { useNow, useDateFormat } from '@vueuse/core';
 
@@ -30,8 +30,6 @@ setInterval(() => {
         useDateFormat(useNow(), 'D').value
     ).dateStr;
 }, 1000);
-
-onMounted(() => { });
 
 onUnmounted(() => {
     clearInterval(timer);

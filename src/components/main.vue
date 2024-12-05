@@ -3,7 +3,9 @@
         <el-space direction="vertical" v-for="item in list" @click="routerHandle(item.url)">
             <el-image :src="item.icon">
                 <template #error>
-                    <Picture></Picture>
+                    <el-icon size="30">
+                        <Picture></Picture>
+                    </el-icon>
                 </template>
             </el-image>
             <el-text size="small">{{ item.name }}</el-text>
@@ -73,5 +75,9 @@ const routerHandle = (url: string) => {
     /* 假设每个 item 宽度为200px，可根据实际调整 */
     margin: 10px;
     /* 设置每个 item 之间的间距 */
+}
+
+.el-image {
+    height: 32px;
 }
 </style>

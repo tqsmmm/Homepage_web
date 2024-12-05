@@ -7,7 +7,7 @@
     },
     {
         "name": "在线之家",
-        "url": "https://zxzj.vip/",
+        "url": "https://www.zxzja.com/",
         "icon": "",
         "type": ""
     },
@@ -28,63 +28,40 @@
         "url": "https://www.jd.com/",
         "icon": "",
         "type": ""
-    },{
+    },
+    {
         "name": "哔哩哔哩",
         "url": "https://www.bilibili.com/",
         "icon": "",
         "type": ""
-    },{
+    },
+    {
         "name": "抖音",
         "url": "https://www.douyin.com/",
         "icon": "",
         "type": ""
-    },{
+    },
+    {
         "name": "Element Plus",
-        "url": "https://element-plus.gitee.io/zh-CN/",
+        "url": "https://element-plus.org/zh-CN/",
         "icon": "",
         "type": ""
-    },{
+    },
+    {
         "name": "Epic Games",
         "url": "https://store.epicgames.com/zh-CN/",
         "icon": "",
         "type": ""
-    },{
-        "name": "哔嘀影视",
-        "url": "https://www.bdys01.com/",
-        "icon": "",
-        "type": ""
-    },{
+    },
+    {
         "name": "GitHub",
         "url": "https://github.com/",
         "icon": "",
         "type": ""
-    },{
-        "name": "无名小站",
-        "url": "https://www.btnull.org/",
-        "icon": "",
-        "type": ""
-    }
-    ,{
-        "name": "JASONNAS",
-        "url": "http://jasonnas:5000/",
-        "icon": "",
-        "type": ""
-    }
-    ,{
-        "name": "iStoreOS",
-        "url": "http://istoreos/",
-        "icon": "",
-        "type": ""
-    }
-    ,{
-        "name": "iStoreOS",
-        "url": "http://istoreos/",
-        "icon": "",
-        "type": ""
-    }
-    ,{
-        "name": "iStoreOS",
-        "url": "http://istoreos/",
+    },
+    {
+        "name": "观影",
+        "url": "https://www.gying.net/",
         "icon": "",
         "type": ""
     }
